@@ -51,7 +51,7 @@ class FindButton extends Component {
             <h1>Product Search Engine</h1>
             <Form>
               <FormGroup row>
-                <Col sm={10}>
+                <Col sm={13} style={styles.col}>
                 <Input 
                   type="text" 
                   name="inputproduct" 
@@ -73,5 +73,9 @@ class FindButton extends Component {
     );
   }
 }
-
+const styles={
+  col:{
+    marginBottom: 20
+  }
+}
 export default FindButton;
