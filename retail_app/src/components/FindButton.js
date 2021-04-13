@@ -48,7 +48,7 @@ class FindButton extends Component {
       <div>
         <Row>
           <Col sm="12" md={{ size: 6, offset: 3 }}>
-            <h1>Product Information</h1>
+            <h1>Product Search Engine</h1>
             <Form>
               <FormGroup row>
                 <Col sm={10}>
@@ -60,7 +60,7 @@ class FindButton extends Component {
                   onChange={this.handleChange}
                 ></Input>
                 </Col>
-                <Button color="warning" onClick={this.handleFindProduct}>Search</Button>
+                <Button color="secondary" onClick={this.handleFindProduct}>Search</Button>
               </FormGroup>
             </Form>
             

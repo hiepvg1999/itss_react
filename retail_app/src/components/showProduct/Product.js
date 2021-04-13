@@ -11,13 +11,13 @@ export default class Product extends Component {
     }
   }
 
-  handleShowPrice = () => {
-    this.setState({showPrice: !this.state.showPrice})
-  };
+  // handleShowPrice = () => {
+  //   this.setState({showPrice: !this.state.showPrice})
+  // };
 
-  handleShowDescription = () => {
-    this.setState({showDescription: !this.state.showDescription})
-  };
+  // handleShowDescription = () => {
+  //   this.setState({showDescription: !this.state.showDescription})
+  // };
 
   render() {
     const product = this.props.product;
@@ -28,17 +28,18 @@ export default class Product extends Component {
           <button
             style={styles.button}
             className="button1"
-            onClick={this.handleShowDescription.bind(this)}>Description
+            /*onClick={this.handleShowDescription.bind(this)}*/>Description
           </button>
           {
-            this.state.showDescription &&
+            //this.state.showDescription &&
             <span style={styles.span}>{product.description}</span>
           }
           <button
             className="button1"
-            style={styles.button} onClick={this.handleShowPrice.bind(this)}>Price</button>
+            style={styles.button} 
+            /*onClick={this.handleShowPrice.bind(this)}*/>Price</button>
           {
-            this.state.showPrice &&
+            // this.state.showPrice &&
             <span style={styles.span}>{product.price}</span>
           }
           <EditButton 
@@ -90,7 +91,7 @@ const styles = {
     marginTop: 20,
     border: 'none',
     color: '#00f',
-    textDecoration: 'underline',
+    textDecoration: 'none',
     fontStyle: 'normal',
     backgroundColor: 'white',
     padding: 0,

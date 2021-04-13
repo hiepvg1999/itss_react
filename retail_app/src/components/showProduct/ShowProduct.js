@@ -36,7 +36,7 @@ class ShowProduct extends Component {
         <Button
           className="button-show" color="warning"
           onClick={this.handleShowListProduct.bind(this)}>
-          {this.state.showListProduct ? 'Hide list product' : 'List of product'}
+          {this.state.showListProduct ? 'Hide' : 'List of product'}
         </Button>
       </div>
     );

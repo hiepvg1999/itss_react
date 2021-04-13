@@ -24,7 +24,7 @@ const AddButton = (props) => {
   	}
     return (
 		<div>
-			<Button color="primary" onClick={toggle}>Add New Product</Button>
+			<Button color="primary" style={styles.button} onClick={toggle}>Add New Product</Button>
 			<Modal isOpen={modal} toggle={toggle} className="ok">
 		        <ModalBody>
 		          	<Form>
@@ -49,5 +49,9 @@ const AddButton = (props) => {
 		</div>
     );
 }
-
+const styles = {
+	button:{
+		marginTop: 20
+	}
+}
 export default AddButton;
