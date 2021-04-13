@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './product.css';
+import './Product.css';
 import EditButton from '../EditButton'
 
 export default class Product extends Component {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Product from "./product";
+import Product from "./Product";
 import {Button} from 'reactstrap';
-import './showProduct.css'
+import './ShowProduct.css'
 
 class ShowProduct extends Component {
   constructor(props) {
@@ -16,24 +16,23 @@ class ShowProduct extends Component {
   }
 
   render() {
-    const {dictionary} = this.props;
+    const {products} = this.props;
     return (
       <div>
         {
           this.state.showListProduct &&
           <div style={styles.container}>
             {
-              dictionary.map((item, index) => {
+              products.map((item, index) => {
                 return (
-                  <Word word={item} key={index}
-                        editWord={this.props.editProduct}
-                        deleteWord={this.props.deleteProduct}/>
+                  <Product product={item} key={index}
+                        editProduct={this.props.editProduct}
+                        deleteProduct={this.props.deleteProduct}/>
                 )
               })
             }
           </div>
         }
-        {/*<button style={styles.button} onClick={this.handleShowListWord.bind(this)}>List word</button>*/}
         <Button
           className="button-show" color="warning"
           onClick={this.handleShowListProduct.bind(this)}>

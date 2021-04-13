@@ -15,7 +15,7 @@ const EditButton = (props) => {
   const toggle = () => setModal(!modal);
 
   function edit() {
-    editWord(displayProduct.id, newProduct.product_name, newProduct.description, newProduct.price)
+    editProduct(displayProduct.id, newProduct.product_name, newProduct.description, newProduct.price)
     toggle()
   }
 

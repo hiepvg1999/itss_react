@@ -3,7 +3,7 @@ import './../App.css';
 
 import { Jumbotron, Col, Container} from 'reactstrap';
 
-class showFindResult extends Component {
+class ShowFindResult extends Component {
     render() {
         const jStyle = {
             margin: '10px',
@@ -33,4 +33,4 @@ class showFindResult extends Component {
     }
 }
 
-export default showFindResult;
+export default ShowFindResult;

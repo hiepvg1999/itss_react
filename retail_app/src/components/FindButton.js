@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import showFindResult from './showFindResult'
+import ShowFindResult from './ShowFindResult'
 import { Button, Form, FormGroup, Input, Row, Col } from 'reactstrap';
 
 class FindButton extends Component {
@@ -54,7 +54,7 @@ class FindButton extends Component {
                 <Col sm={10}>
                 <Input 
                   type="text" 
-                  name="inputword" 
+                  name="inputproduct" 
                   placeholder="Search a product by description"
                   value={this.state.findProduct}
                   onChange={this.handleChange}
