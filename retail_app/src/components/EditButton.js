@@ -37,17 +37,17 @@ const EditButton = (props) => {
           <Form>
             <FormGroup row>
             <Label sm={3}>product_name</Label>
-              <Col sm={9}><Input type="text" name="product_name" id="taskID" placeholder={displayProduct.product_name} onChange={updateInput}>{newProduct.product_name}</Input></Col>
+              <Col sm={9}><Input type="text" name="product_name" id="ProductID" placeholder={displayProduct.product_name} onChange={updateInput}>{newProduct.product_name}</Input></Col>
             </FormGroup>
 
             <FormGroup row>
             <Label sm={3}>description</Label>
-              <Col sm={9}><Input type="text" name="description" id="taskID" placeholder={displayProduct.description} onChange={updateInput}>{newProduct.description}</Input></Col>
+              <Col sm={9}><Input type="text" name="description" id="ProductID" placeholder={displayProduct.description} onChange={updateInput}>{newProduct.description}</Input></Col>
             </FormGroup>
 
             <FormGroup row>
             <Label sm={3}>price</Label>
-              <Col sm={9}><Input type="text" name="price" id="taskID" placeholder={displayProduct.price} onChange={updateInput}>{newProduct.price}</Input></Col>
+              <Col sm={9}><Input type="text" name="price" id="ProductID" placeholder={displayProduct.price} onChange={updateInput}>{newProduct.price}</Input></Col>
             </FormGroup>
           </Form>
           
