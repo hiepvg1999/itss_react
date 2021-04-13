@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
+import './bootstrap.css';
 import FindButton from './components/FindButton'
 import ShowProduct from './components/showProduct/ShowProduct'
 import AddButton from './components/AddButton'
