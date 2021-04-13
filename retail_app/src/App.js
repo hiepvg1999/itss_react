@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+<<<<<<< HEAD
 // import 'bootstrap/dist/css/bootstrap.css';
+=======
+import './bootstrap.css';
+>>>>>>> 5664ac8f4766f7cab3997e282f472cd08ccf2874
 import FindButton from './components/FindButton'
 import ShowProduct from './components/showProduct/ShowProduct'
 import AddButton from './components/AddButton'
