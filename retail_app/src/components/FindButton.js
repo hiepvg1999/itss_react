@@ -48,7 +48,11 @@ class FindButton extends Component {
       <div>
         <Row>
           <Col sm="12" md={{ size: 6, offset: 3 }}>
+<<<<<<< HEAD
             <h1>Product Information</h1>
+=======
+            <h1>A Product search engine</h1>
+>>>>>>> 0e9e266b764424290502e08d1c78178ba8e8d6d3
             <Form>
               <FormGroup row>
                 <Col sm={10}>

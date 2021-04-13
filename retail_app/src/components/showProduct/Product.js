@@ -80,9 +80,11 @@ const styles = {
   },
   product_name: {
     fontWeight: 'bold',
-    fontSize: 90,
+    fontSize: 40,
+    textAlign: 'center',
     width: 150,
     height: 150,
+    flex: 2,
   },
   button: {
     marginTop: 20,

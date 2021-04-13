@@ -19,10 +19,9 @@ class ShowFindResult extends Component {
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
                     <Jumbotron fluid  style={jStyle} className="deleteFindResult">
                         <Container fluid style={dStyle} onClick = {this.props.onDelete} className="deleteFindResult">
-                            <h2 className="display-3 ">{this.props.result.id}</h2>
+                            <h2 className="display-3 ">{this.props.result.description}</h2>
                             <p className="lead">  
                             Product Name: {this.props.result.product_name} <br />
-                            Descripton: {this.props.result.description} <br />
                             Price: {this.props.result.price}
                             </p>
                         </Container>
