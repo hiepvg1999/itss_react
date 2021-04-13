@@ -29,7 +29,7 @@ const AddButton = (props) => {
 		        <ModalBody>
 		          	<Form>
 		            	<FormGroup row>
-		            		<Label sm={3}>Product Name</Label>
+		            		<Label sm={3}>Name</Label>
 		              		<Col sm={9}><Input type="text" name="product_name" id="productID" onChange={updateInput}></Input></Col>
 		            	</FormGroup>
 		            	<FormGroup row>

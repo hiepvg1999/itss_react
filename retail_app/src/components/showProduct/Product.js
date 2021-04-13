@@ -80,7 +80,7 @@ const styles = {
   },
   product_name: {
     fontWeight: 'bold',
-    fontSize: 90,
+    fontSize: 30,
     width: 150,
     height: 150,
   },

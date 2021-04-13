@@ -60,7 +60,9 @@ class FindButton extends Component {
                   onChange={this.handleChange}
                 ></Input>
                 </Col>
+                <Col sm={2}>
                 <Button color="warning" onClick={this.handleFindProduct}>Search</Button>
+                </Col>
               </FormGroup>
             </Form>
             
