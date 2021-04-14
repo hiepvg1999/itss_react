@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ShowFindResult from './ShowFindResult'
+import ShowFindResult from './ShowFindResult';
+import {SearchOutlined} from '@ant-design/icons';
 import { Button, Form, FormGroup, Input, Row, Col } from 'reactstrap';
 
 class FindButton extends Component {
@@ -61,7 +62,9 @@ class FindButton extends Component {
                 ></Input>
                 </Col>
                 <Col sm={2}>
-                  <Button color="secondary" onClick={this.handleFindProduct}>Search</Button>
+                  <Button color="secondary" onClick={this.handleFindProduct}>
+                    <SearchOutlined class= "search-icon"/>
+                  </Button>
                 </Col>
               </FormGroup>
             </Form>
