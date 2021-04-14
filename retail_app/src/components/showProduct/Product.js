@@ -80,11 +80,12 @@ const styles = {
     flexDirection: 'column',
   },
   product_name: {
+    marginTop:40,
     fontWeight: 'bold',
     fontSize: 40,
     textAlign: 'center',
-    width: 150,
-    height: 150,
+    width: 100,
+    height: 100,
     flex: 2,
   },
   button: {

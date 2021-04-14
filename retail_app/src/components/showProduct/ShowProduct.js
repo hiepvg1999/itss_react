@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Product from "./Product";
-import {Button} from 'reactstrap';
 import './ShowProduct.css'
 
 class ShowProduct extends Component {
@@ -33,11 +32,6 @@ class ShowProduct extends Component {
             }
           </div>
         }
-        <Button
-          className="button-show" color="warning"
-          onClick={this.handleShowListProduct.bind(this)}>
-          {this.state.showListProduct ? 'Hide' : 'List of product'}
-        </Button>
       </div>
     );
   }

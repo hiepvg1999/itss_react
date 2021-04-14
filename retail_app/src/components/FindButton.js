@@ -51,8 +51,8 @@ class FindButton extends Component {
             <h1>Product Search Engine</h1>
             <Form>
               <FormGroup row>
-                <Col sm={13} style={styles.col}>
-                <Input 
+                <Col sm={10} style={styles.col}>
+                <Input
                   type="text" 
                   name="inputproduct" 
                   placeholder="Search a product by description"
@@ -60,7 +60,9 @@ class FindButton extends Component {
                   onChange={this.handleChange}
                 ></Input>
                 </Col>
-                <Button color="secondary" onClick={this.handleFindProduct}>Search</Button>
+                <Col sm={2}>
+                  <Button color="secondary" onClick={this.handleFindProduct}>Search</Button>
+                </Col>
               </FormGroup>
             </Form>
             
