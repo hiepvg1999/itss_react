@@ -49,21 +49,21 @@ class FindButton extends Component {
       <div>
         <Row>
           <Col sm="12" md={{ size: 6, offset: 3 }}>
-            <h1>Product Search Engine</h1>
+            <h1>商品検索エンジン</h1>
             <Form>
               <FormGroup row>
                 <Col sm={10} style={styles.col}>
                 <Input
                   type="text" 
                   name="inputproduct" 
-                  placeholder="Search a product by description"
+                  placeholder="種類で商品を検索する"
                   value={this.state.findProduct}
                   onChange={this.handleChange}
                 ></Input>
                 </Col>
                 <Col sm={2}>
                   <Button color="secondary" onClick={this.handleFindProduct}>
-                    <SearchOutlined class= "search-icon"/>
+                    <SearchOutlined class= "search-icon"/>　検索
                   </Button>
                 </Col>
               </FormGroup>

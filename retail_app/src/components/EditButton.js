@@ -31,31 +31,31 @@ const EditButton = (props) => {
 
   return (
     <div>
-      <Button color="primary" onClick={toggle}>Edit | Delete</Button>
+      <Button color="primary" onClick={toggle}>変更 | 削除</Button>
       <Modal isOpen={modal} toggle={toggle} className={displayProduct.id.toString()}>
         <ModalBody>
           <Form>
             <FormGroup row>
-            <Label sm={3}>product_name</Label>
+            <Label sm={3}>商品名</Label>
               <Col sm={9}><Input type="text" name="product_name" id="ProductID" placeholder={displayProduct.product_name} onChange={updateInput}>{newProduct.product_name}</Input></Col>
             </FormGroup>
 
             <FormGroup row>
-            <Label sm={3}>description</Label>
+            <Label sm={3}>種類</Label>
               <Col sm={9}><Input type="text" name="description" id="ProductID" placeholder={displayProduct.description} onChange={updateInput}>{newProduct.description}</Input></Col>
             </FormGroup>
 
             <FormGroup row>
-            <Label sm={3}>price</Label>
+            <Label sm={3}>価格</Label>
               <Col sm={9}><Input type="text" name="price" id="ProductID" placeholder={displayProduct.price} onChange={updateInput}>{newProduct.price}</Input></Col>
             </FormGroup>
           </Form>
           
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={edit}>Update</Button>{' '}
-          <Button color="danger" onClick={deleteTarget}>Delete</Button>{' '}
-          <Button color="secondary" onClick={toggle}>Cancel</Button>
+          <Button color="primary" onClick={edit}>変更</Button>{' '}
+          <Button color="danger" onClick={deleteTarget}>削除</Button>{' '}
+          <Button color="secondary" onClick={toggle}>キャンセル</Button>
         </ModalFooter>
       </Modal>
     </div>

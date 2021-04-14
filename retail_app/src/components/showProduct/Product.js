@@ -28,7 +28,7 @@ export default class Product extends Component {
           <button
             style={styles.button}
             className="button1"
-            /*onClick={this.handleShowDescription.bind(this)}*/>Description
+            /*onClick={this.handleShowDescription.bind(this)}*/>種類
           </button>
           {
             //this.state.showDescription &&
@@ -37,7 +37,7 @@ export default class Product extends Component {
           <button
             className="button1"
             style={styles.button} 
-            /*onClick={this.handleShowPrice.bind(this)}*/>Price</button>
+            /*onClick={this.handleShowPrice.bind(this)}*/>価格</button>
           {
             // this.state.showPrice &&
             <span style={styles.span}>{product.price}</span>

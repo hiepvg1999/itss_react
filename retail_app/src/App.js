@@ -12,20 +12,20 @@ class App extends Component {
       {
         id: 1,
         product_name: 'Iphone 11 Promax',
-        description: 'smartphone',
-        price: '18.000.000d'
+        description: 'スマートフォン',
+        price: '18万円'
       },
       {
         id: 2,
         product_name: 'Macbook',
-        description: 'laptop',
-        price: '22.000.000d'
+        description: 'パソコン',
+        price: '22万円'
       },
       {
         id: 3,
         product_name: 'Apple watch',
-        description: 'watch',
-        price: '7.000.000d'
+        description: '時計',
+        price: '7万円'
       }
     ]
   }
